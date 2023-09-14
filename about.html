@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--website title-->
+        <title>Pora - Auto Insurance Agency HTML Landing Page Template</title>
+        <!--seo-meta-tag-->
+        <meta charset="UTF-8" />
+        <meta name="description" content="Insurance Agency HTML Landing Page Template" />
+        <meta name="keywords" content="Insurance Agency HTML Landing Page Template" />
+        <meta name="author" content="syed-meraj-naqvi" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!--website-favicon-->
+        <link rel="icon" type="image/png" href="images/common/dark.png" />
+        <!--plugin-scripts-->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        />
+        <link href="css/aos.css" rel="stylesheet" />
+        <!--google-fonts-->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- template-style-->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+        <link rel="stylesheet" href="./css/about.css" />
+
+        <style>
+            /* Style for the "Read more" button */
+
+            /* Style for the expanded text */
+            .expanded {
+                display: block !important;
+            }
+
+            /* Style for the collapsed text */
+            .collapsed {
+                display: none;
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="100" class="ct1280">
+        <!--Start Header -->
+        <header class="top-header th2">
+            <nav
+                class="navbar navbar-expand-lg justify-content-between navbar-mobile fixed-top"
+            >
+                <div class="container">
+                    <a class="navbar-brand" href="./index3.html">
+                        <img
+                            src="images/common/dark-risk.png"
+                            style="width: 100px"
+                            alt="Logo"
+                            class="white-logo img-fluid"
+                        />
+                        <img
+                            src="images/common/dark-risk.png"
+                            style="width: 100px"
+                            alt="Logo"
+                            class="dark-logo img-fluid"
+                        />
+                    </a>
+
+                    <button
+                        class="navbar-toggler collapsed"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbar4"
+                        aria-controls="navbar4"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar4">
+                        <ul class="mr-auto"></ul>
+                        <ul class="navbar-nav v-center">
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-bs-hover="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Services
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Insurance Policies</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="./riskmantra.html"
+                                            target="_blank"
+                                            >RiskMantra</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="./wellconnect.html"
+                                            target="_blank"
+                                            >WellConnect</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="aboutUsDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    About Us
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="aboutUsDropdown"
+                                >
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="./about.html"
+                                            target="_blank"
+                                            >About</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Philosophy</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Mission & Vision</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="#leaderhip"
+                                            onclick="scrollToSection3('leadership')"
+                                            >Leadership</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Our Team</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link"
+                                    href="#"
+                                    id="contactUsDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Contact Us
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="contactUsDropdown"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="./contact.html"
+                                            >Contact Us</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="#faqs"
+                                            onclick="scrollToSection1('faqs')"
+                                            >FAQs</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    href="#blogs"
+                                    onclick="scrollToSection('blogs')"
+                                    >Blogs</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <button
+                                    type="button"
+                                    class="btn btn-primary btn-rd22 mx-2"
+                                    onclick="window.location.href = './quotation.html';"
+                                >
+                                    Get a Quote
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button
+                                    type="button"
+                                    class="btn btn-primary btn-rd22"
+                                    onclick="window.location.href='./crm.html';"
+                                >
+                                    Get CRM
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--End Header -->
+
+        <!-- Riskbirbal Start -->
+
+        <div class="riskmantra-start pt-5 pb-4">
+            <div class="container mt-5">
+                <h3 class="fs-2 mb-3">About <em> Riskbirbal</em></h3>
+                <div class="row">
+                    <p>
+                        Welcome to RiskBirbal - your trusted insurance partner. We offer
+                        personalized coverage through a streamlined policy selection
+                        process, ensuring a balance between premium costs and benefits.
+                        Our commitment to your satisfaction is evident with timely
+                        renewals and fast claim settlements. With 24x7 support and
+                        transparent operations, we prioritize prompt responses and data
+                        security. Through continuous policy improvement and pre-emptive
+                        risk assessments, we effectively mitigate potential threats. Our
+                        customer-centric approach simplifies complex policy content for
+                        better understanding. We strive to be reliable partners, providing
+                        comprehensive and competitive insurance solutions for your
+                        financial protection and utmost satisfaction. Trust RiskBirbal for
+                        transparency and peace of mind.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- End Riskbirbal -->
+
+        <div
+            class="philosophy-start"
+            style="
+                background: url(https://iteck-html.themescamp.com/assets/img/feat_15_back.png);
+                height: 600px;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 50vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            "
+        >
+            <div class="container">
+                <h3
+                    style="font-size: 30px"
+                    class="p-3 mb-3 text-white text-capitalize text-center"
+                >
+                    Philosophy
+                </h3>
+                <p class="text-center text-white text-capitalize fs-3 mb-5">
+                    RISKBIRBAL leverages cutting-edge technology hand-in-hand with
+                    extraordinary human support to provide user-friendly risk mitigation
+                    and transfer solutions, streamlining intricate processes of risk and
+                    insurance with a reliable and transparent approach ensuring peace of
+                    mind and secured future
+                </p>
+            </div>
+        </div>
+
+        <div class="our-mission mt-4" id="missionvission">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="text-justify mt-2 mb-2">Our <em>Mission</em></h2>
+                        <p class="fs-4 text-justify">
+                            Our mission is to enable informed decision-making, enhance
+                            operational efficiency, and deliver exceptional value and
+                            customer experience. Driven by integrity, excellence, and
+                            technological innovation, we strive to empower individuals and
+                            organizations to thrive in unpredictable circumstances.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="text-justify mt-2 mb-2">Our <em>Vision</em></h2>
+                        <p class="fs-4 text-justify">
+                            Our aim is to become the most widely accepted
+                            technology-driven risk management and insurance name
+                            worldwide, reaching unprecedented heights of excellence. We
+                            strive to support our clients' businesses in their growth by
+                            venturing into new, risk-mitigated environments.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--End mission-->
+
+        <!-- start leadership -->
+
+        <section class="agent-section pad-tb" id="leadership">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="common-heading">
+                            <h2 class="mb20" data-aos="fade-up" data-aos-delay="100">
+                                Meet Our <em>Leadership</em> Team
+                            </h2>
+                            <p>
+                                At Riskbirbal Insurance Broker, our success is driven by a
+                                dedicated and experienced leadership team. With a shared
+                                vision for <br />
+                                innovation and a commitment to excellence, our leaders
+                                bring a wealth of industry knowledge and expertise to the
+                                table. They are <br />
+                                passionate about guiding our company towards its goals and
+                                ensuring that our clients receive the highest <br />
+                                level of service. Get to know the faces behind our
+                                company's success below.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div
+                        class="col-lg-12 col-12 mt-3"
+                        data-aos="fade-In"
+                        data-aos-delay="100"
+                    >
+                        <div class="full-image-card hover-scale">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="image-div">
+                                        <a href="#">
+                                            <img
+                                                loading="lazy"
+                                                src="images/managers/director.png"
+                                                alt="team"
+                                                class="img-fluid"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-6 d-flex justify-content-center align-items-center"
+                                >
+                                    <div class="info-text-block">
+                                        <h5 style="font-size: 40px">Mukesh Jairath</h5>
+                                        <p class="mt-3 mb-4" style="font-size: 22px">
+                                            Director
+                                        </p>
+                                        <div class="note">
+                                            <span
+                                                class="d-flex flex-column"
+                                                style="
+                                                    color: #86868d;
+                                                    font-size: 20px;
+                                                    position: relative;
+                                                    bottom: 15px;
+                                                "
+                                            >
+                                                A seasoned and dynamic entrepreneur stands
+                                                out as a driving force behind success in
+                                                diverse industries. Renowned for his
+                                                innovative vision and strong leadership,
+                                                he is celebrated as a true visionary,
+                                                consistently propelling companies to
+                                                unparalleled growth and profitability.
+                                                <span
+                                                    class="read-more-collapsed collapsed"
+                                                >
+                                                    His strategic thinking and strong
+                                                    decision-making abilities have led to
+                                                    the establishment of key partnerships
+                                                    and market expansion initiatives. His
+                                                    commitment to customer satisfaction
+                                                    and continuous improvement ensures our
+                                                    business remains agile and adaptive in
+                                                    the face of changing market dynamics.
+                                                </span>
+                                            </span>
+                                            <button
+                                                class="read-more-button btn btn-success"
+                                            >
+                                                Read more
+                                            </button>
+                                        </div>
+                                        <div class="social-links-">
+                                            <a
+                                                href="https://www.facebook.com/riskbirbal/"
+                                                target="blank"
+                                                ><i
+                                                    class="fa-brands fa-facebook"
+                                                    title="Facebook"
+                                                ></i>
+                                            </a>
+                                            <a
+                                                href="https://twitter.com/RiskBirbal"
+                                                target="blank"
+                                                ><i
+                                                    class="fa-brands fa-x-twitter"
+                                                    title="Twitter"
+                                                ></i>
+                                            </a>
+                                            <a
+                                                href="https://instagram.com/riskbirbal?igshid=MzNlNGNkZWQ4Mg=="
+                                                target="blank"
+                                                ><i
+                                                    class="fa-brands fa-instagram"
+                                                    title="Instagram"
+                                                ></i>
+                                            </a>
+                                            <a
+                                                href="https://www.linkedin.com/company/riskbirbal-insurance-brokers"
+                                                target="blank"
+                                                ><i
+                                                    class="fa-brands fa-linkedin-in"
+                                                    title="Linkedin"
+                                                ></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ... other columns ... -->
+                </div>
+                <div class="row mt-3">
+                    <div
+                        class="col-lg-12 col-12 mt-3"
+                        data-aos="fade-In"
+                        data-aos-delay="100"
+                    >
+                        <div class="full-image-card hover-scale">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="image-div">
+                                        <a href="#">
+                                            <img
+                                                loading="lazy"
+                                                src="images/managers/co-meraj-sir.png"
+                                                alt="team"
+                                                class="img-fluid"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-6 d-flex justify-content-center align-items-center"
+                                >
+                                    <div class="info-text-block">
+                                        <h5 style="font-size: 40px">Syed Meraj Naqvi</h5>
+                                        <p class="mt-3 mb-4" style="font-size: 22px">
+                                            Chief Executive Operations & PO
+                                        </p>
+                                        <div class="note">
+                                            <span
+                                                class="d-flex flex-column"
+                                                style="
+                                                    color: #86868d;
+                                                    position: relative;
+                                                    bottom: 15px;
+                                                "
+                                            >
+                                                A visionary leader with a keen business
+                                                acumen and a successful track record of
+                                                driving overall growth. With extensive
+                                                experience spanning over 15 years in
+                                                insurance, he has consistently steered the
+                                                company towards profitability and market
+                                                leadership. His strategic thinking and
+                                                <span
+                                                    class="read-more-collapsed collapsed"
+                                                    >strong decision-making abilities have
+                                                    led to the establishment of key
+                                                    partnerships and market expansion
+                                                    initiatives. His commitment to
+                                                    customer satisfaction and continuous
+                                                    improvement ensures our business
+                                                    remains agile and adaptive in the face
+                                                    of changing market dynamics.</span
+                                                >
+                                            </span>
+                                            <button
+                                                class="read-more-button btn btn-success"
+                                            >
+                                                Read more
+                                            </button>
+                                        </div>
+                                        <div class="social-links-">
+                                            <a
+                                                href="https://www.facebook.com/riskbirbal/"
+                                                target="blank"
+                                                ><i
+                                                    class="fa-brands fa-facebook"
+                                                    title="Facebook"
+                                                ></i>
+                                            </a>
+                                            <a
+                                                href="https://twitter.com/RiskBirbal"
+                                                target="blank"
+                                                ><i
+                                                    class="fa-brands fa-x-twitter"
+                                                    title="Twitter"
+                                                ></i>
+                                            </a>
+                                            <a
+                                                href="https://instagram.com/riskbirbal?igshid=MzNlNGNkZWQ4Mg=="
+                                                target="blank"
+                                                ><i
+                                                    class="fa-brands fa-instagram"
+                                                    title="Instagram"
+                                                ></i>
+                                            </a>
+                                            <a
+                                                href="https://www.linkedin.com/company/riskbirbal-insurance-brokers"
+                                                target="blank"
+                                                ><i
+                                                    class="fa-brands fa-linkedin-in"
+                                                    title="Linkedin"
+                                                ></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ... other columns ... -->
+                </div>
+            </div>
+        </section>
+        <!-- end leadership -->
+
+        <!-- our team start -->
+        <div class="our-team" id="team">
+            <div class="container">
+                <h3 class="fs-3">Our <em>Team</em></h3>
+                <p class="mb-3 mt-3">
+                    At Riskbirbal Insurance Brokers, we take pride in our exceptional team
+                    spirit. We believe that unity and collaboration are at the heart of
+                    our success. Our diverse team of professionals works together
+                    seamlessly, sharing a common dedication to our clients and a passion
+                    for achieving outstanding results. We celebrate each other's
+                    strengths, fostering an environment where creativity thrives, and
+                    innovative solutions are born. Together, we're not just a team; we're
+                    a family, committed to making a positive impact and delivering
+                    excellence in everything we do.
+                </p>
+                <!-- <video
+                    style="
+                        width: 100%;
+                        height: 80%;
+                        border-radius: 0px;
+                        border: none;
+                        filter: drop-shadow(0 0 16px #00068058);
+                    "
+                    autoplay
+                    muted
+                    loop
+                    controls
+                    controlsList="nodownload"
+                    class="mt-3 mb-4"
+                >
+                    <source src="./video/about-us-riskbirbal.mp4" type="video/mp4" />
+                </video> -->
+            </div>
+        </div>
+        <!-- our team end -->
+
+        <!-- Carousel team start -->
+
+        <div class="team-carousel">
+            <div class="container">
+                <div
+                    id="carouselExampleIndicators"
+                    class="carousel slide"
+                    data-ride="carousel"
+                >
+                    <ol class="carousel-indicators">
+                        <li
+                            data-target="#carouselExampleIndicators"
+                            data-slide-to="0"
+                            class="active"
+                        ></li>
+                        <li
+                            data-target="#carouselExampleIndicators"
+                            data-slide-to="1"
+                        ></li>
+                        <li
+                            data-target="#carouselExampleIndicators"
+                            data-slide-to="2"
+                        ></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img
+                                class="img-fluid d-block w-auto"
+                                src="./images/managers/te-am1.png"
+                                alt="First slide"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                class="img-fluid d-block w-auto"
+                                src="./images/managers/te-am2.png"
+                                alt="Second slide"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                class="img-fluid d-block w-auto"
+                                src="./images/managers/te-am6.png"
+                                alt="Third slide"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                class="img-fluid d-block w-auto"
+                                src="./images/managers/te-am3.png"
+                                alt="Third slide"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                class="img-fluid d-block w-auto"
+                                src="./images/managers/te-am4.png"
+                                alt="Third slide"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                class="img-fluid d-block w-auto"
+                                src="./images/managers/te-am5.png"
+                                alt="Third slide"
+                            />
+                        </div>
+                    </div>
+                    <a
+                        class="carousel-control-prev"
+                        href="#carouselExampleIndicators"
+                        role="button"
+                        data-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a
+                        class="carousel-control-next"
+                        href="#carouselExampleIndicators"
+                        role="button"
+                        data-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel team end -->
+
+        <!--Start Footer-->
+        <footer style="background-color: #540e40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer- mt30 mb30">
+                            <a href="javascript:void(0)"
+                                ><img
+                                    src="images/common/dark-risk.png"
+                                    class="img-fluid"
+                                    alt="logo"
+                            /></a>
+                            <!-- <h4 class="mb30 text-white">Contact Us</h4>
+                            <div class="d-flex flex-column">
+                                <a href="#" style="color: #fff">Contact Us</a>
+                                <a href="#" style="padding: 15px 0; color: #fff"
+                                    >Privacy Policy</a
+                                >
+                                <a href="#" style="color: #fff">Terms of Service</a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" style="font-size: 18px;">
+                        <p class="text-white mt20">
+                            Insurance Products and services offered by Riskbirbal
+                            Insurance Broker Pvt Ltd
+                        </p>
+                        <div class="licenses mt-4 d-flex flex-column text-white">
+                            <span class=""
+                            >IRDAI License No. : <strong>896</strong></span
+                            >
+                            <span
+                            >License category: Direct Broker (Life &
+                            General)</span
+                            >
+                            <span>License validity till:  30-04-2026.</span>
+                            <span>CIN: U67100DL2022PTC407258 </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="mt30 mb30 text-white">Keep in Touch</h4>
+                        <div class="footer-social-media-icons">
+                            <a href="javascript:void(0)" target="blank" class="facebook"
+                                ><i class="fab fa-facebook-f"></i
+                            ></a>
+                            <a href="javascript:void(0)" target="blank" class="twitter"
+                                ><i class="fab fa-twitter"></i
+                            ></a>
+                            <a href="javascript:void(0)" target="blank" class="instagram"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                            <a href="javascript:void(0)" target="blank" class="linkedin"
+                                ><i class="fab fa-linkedin-in"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="footer-ft">
+                                <p style="color: #fff">
+                                    Copyright © 2023
+                                    <a href="index3.html" style="color: #fff"
+                                        >RiskBirbal</a
+                                    >. All Rights Reserved.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--End Footer-->
+
+        <!--contact popup start-->
+
+        <!--contact popup end-->
+
+        <!-- Main script file -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/pora.js.plugin.js"></script>
+        <!-- contact from script file -->
+        <script src="js/validator.min.js"></script>
+        <script src="js/form-scripts.js"></script>
+        <!--common script file-->
+        <script src="js/main.js"></script>
+        <script>
+            'use strict';
+            document.addEventListener('DOMContentLoaded', function () {
+                const readMoreButtons = document.querySelectorAll('.read-more-button');
+
+                readMoreButtons.forEach(function (button, index) {
+                    const hiddenText =
+                        document.querySelectorAll('.read-more-collapsed')[index];
+                    button.addEventListener('click', function () {
+                        if (hiddenText.classList.contains('collapsed')) {
+                            hiddenText.classList.remove('collapsed');
+                            button.textContent = 'Read less';
+                        } else {
+                            hiddenText.classList.add('collapsed');
+                            button.textContent = 'Read more';
+                        }
+                    });
+                });
+            });
+            const scrollToSection3 = (leadership) => {
+                var section = document.getElementById('leadership');
+                section.scrollIntoView({ behavior: 'smooth' });
+            };
+        </script>
+    </body>
+</html>

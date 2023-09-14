@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--website title-->
+        <title>Pora - Auto Insurance Agency HTML Landing Page Template</title>
+        <!--seo-meta-tag-->
+        <meta charset="UTF-8" />
+        <meta name="description" content="Insurance Agency HTML Landing Page Template" />
+        <meta name="keywords" content="Insurance Agency HTML Landing Page Template" />
+        <meta name="author" content="syed-meraj-naqvi" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!--website-favicon-->
+        <link rel="icon" type="image/png" href="images/common/dark-risk.png" />
+        <!--plugin-scripts-->
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        />
+        <link href="css/aos.css" rel="stylesheet" />
+        <!--google-fonts-->
+
+        <!-- template-style-->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+        <style>
+            a {
+                text-decoration: none;
+            }
+            .card {
+                border: none;
+                transition: 800ms all;
+                border-radius: 12px;
+                background: #ebf4ff;
+                box-shadow: 5px 5px 9px #ebf4ff inset, -5px -5px 9px #e5e5e5;
+            }
+            .card-title {
+                text-transform: capitalize;
+                display: flex;
+                justify-content: center;
+                margin: auto;
+                font-size: 18px;
+                color: #2b2b32;
+            }
+            .card:hover {
+                transform: scale(0.98);
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="100" class="ct1280">
+        <!--Start Header -->
+        <header class="top-header th2">
+            <nav
+                class="navbar navbar-expand-lg justify-content-between navbar-mobile fixed-top"
+            >
+                <div class="container">
+                    <a class="navbar-brand" href="./index3.html">
+                        <img
+                            src="images/common/dark-risk.png"
+                            style="width: 100px"
+                            alt="Logo"
+                            class="white-logo img-fluid"
+                        />
+                        <img
+                            src="images/common/dark-risk.png"
+                            style="width: 100px"
+                            alt="Logo"
+                            class="dark-logo img-fluid"
+                        />
+                    </a>
+                    <button
+                        class="navbar-toggler collapsed"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbar4"
+                        aria-controls="navbar4"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar4">
+                        <ul class="mr-auto"></ul>
+                        <ul class="navbar-nav v-center">
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-bs-hover="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Services
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Insurance Policies</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./riskmantra.html" target="_blank">RiskMantra</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./wellconnect.html" target="_blank">WellConnect</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="aboutUsDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    About Us
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="aboutUsDropdown"
+                                >
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="./about.html"
+                                        target="_blank"
+                                        >About</a
+                                    >
+                                </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Philosophy</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Mission & Vision</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="#leaderhip"
+                                            onclick="scrollToSection2('leadership')"
+                                            >Leadership</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Our Team</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link"
+                                    href="#"
+                                    id="contactUsDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Contact Us
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="contactUsDropdown"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="./contact.html"
+                                            >Contact Us</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="#faqs"
+                                            onclick="scrollToSection1('faqs')"
+                                            >FAQs</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <button
+                                    class="nav-link active"
+                                    onclick="window.location.href='./index3.html#blogs'"
+                                >
+                                    Blogs
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button
+                                    type="button"
+                                    class="btn btn-primary btn-rd22 mx-2"
+                                    onclick="window.location.href = './quotation.html';"
+                                >
+                                    Get a Quote
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button
+                                    type="button"
+                                    class="btn btn-primary btn-rd22"
+                                    onclick="window.location.href='./crm.html';"
+                                >
+                                    Get CRM
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--End Header -->
+
+        <!-- Riskbirbal Start -->
+
+        <div class="riskmantra-start pt-5 pb-4">
+            <div class="container mt-5">
+                <div class="row">
+                    <h1 class="fs-3 text-center">
+                        Healthcare that’s <em>Boss</em> Approved
+                    </h1>
+
+                    <div class="riskmantra-content">
+                        <p>
+                            WellConnect, by RISKBIRBAL is the groundbreaking healthcare
+                            insurance solution that revolutionizes how we approach
+                            healthcare. With a focus on your dynamic workforce,
+                            WellConnect empowers individuals with comprehensive health
+                            coverage and innovative solutions tailored to their mindset of
+                            growth, agility, and technological advancement. Our
+                            personalized health and wellness programs cater to individual
+                            requirements, emphasizing well-being and proactive healthcare.
+                            Through a seamless digital platform, we provide instant access
+                            to information, streamlined claims management, and
+                            personalized resources, giving you & your employees the tools
+                            to make informed decisions and take control of their
+                            healthcare experience
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="riskmantra-services mb-4">
+            <div class="container mx-auto text-center">
+                <h3 class="fs-2 mb-4">
+                    <em>Happy, Healthy</em>, and Insured; <br />
+                    Discover How WellConnect <em>Safeguards</em> Your Well-being
+                </h3>
+                <div class="services-content">
+                    <div class="row">
+                        <div class="col-lg-6 mb-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Seamless Digital Portal with Easy Healthcare
+                                        Support
+                                    </h5>
+                                    <p class="card-text">
+                                        Experience convenience and superior care with our
+                                        seamless digital portal and dedicated healthcare
+                                        support. Simplify your journey to better health
+                                        and well-being.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Personalized Health Coverage
+                                    </h5>
+                                    <p class="card-text">
+                                        Customized health coverage for all employees,
+                                        ensuring individual needs are met. Simplify
+                                        healthcare with our comprehensive and personalized
+                                        policies, promoting well-being and satisfaction.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Hassle-free Onboarding & Personalized Assistance
+                                    </h5>
+                                    <p class="card-text">
+                                        Easy Onboarding, Personalized Assistance, and
+                                        Hassle-Free Coverage Management. Take Charge of
+                                        Your Health Insurance with Convenience and
+                                        Confidence.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Complimentary Health & Wellness Add-ons
+                                    </h5>
+                                    <p class="card-text">
+                                        Comprehensive Coverage with Complimentary Health &
+                                        Wellness Add-ons. A Bundle of Benefits to Nurture
+                                        Well-being and Drive Productivity to New Heights.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Riskbirbal -->
+
+        <!--End Faqs-->
+
+        <!--Start Footer-->
+        <footer style="background-color: #540e40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer- mt30 mb30">
+                            <a href="javascript:void(0)"
+                                ><img
+                                    src="images/common/dark-risk.png"
+                                    class="img-fluid"
+                                    alt="logo"
+                            /></a>
+                            <!-- <h4 class="mb30 text-white">Contact Us</h4>
+                            <div class="d-flex flex-column">
+                                <a href="#" style="color: #fff">Contact Us</a>
+                                <a href="#" style="padding: 15px 0; color: #fff"
+                                    >Privacy Policy</a
+                                >
+                                <a href="#" style="color: #fff">Terms of Service</a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" style="font-size: 18px;">
+                        <p class="text-white mt20">
+                            Insurance Products and services offered by Riskbirbal
+                            Insurance Broker Pvt Ltd
+                        </p>
+                        <div class="licenses mt-4 d-flex flex-column text-white">
+                            <span class=""
+                            >IRDAI License No. : <strong>896</strong></span
+                            >
+                            <span
+                            >License category: Direct Broker (Life &
+                            General)</span
+                            >
+                            <span>License validity till:  30-04-2026.</span>
+                            <span>CIN: U67100DL2022PTC407258 </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="mt30 mb30 text-white">Keep in Touch</h4>
+                        <div class="footer-social-media-icons">
+                            <a href="javascript:void(0)" target="blank" class="facebook"
+                                ><i class="fab fa-facebook-f"></i
+                            ></a>
+                            <a href="javascript:void(0)" target="blank" class="twitter"
+                                ><i class="fab fa-twitter"></i
+                            ></a>
+                            <a href="javascript:void(0)" target="blank" class="instagram"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                            <a href="javascript:void(0)" target="blank" class="linkedin"
+                                ><i class="fab fa-linkedin-in"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="footer-ft">
+                                <p style="color: #fff">
+                                    Copyright © 2023
+                                    <a href="index3.html" style="color: #fff"
+                                        >RiskBirbal</a
+                                    >. All Rights Reserved.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--End Footer-->
+
+        <!--contact popup start-->
+
+        <!--contact popup end-->
+
+        <!-- Main script file -->
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/pora.js.plugin.js"></script>
+
+        <script src="js/validator.min.js"></script>
+        <script src="js/form-scripts.js"></script>
+
+        <script src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </body>
+</html>

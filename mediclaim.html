@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--website title-->
+        <title>Pora - Auto Insurance Agency HTML Landing Page Template</title>
+        <!--seo-meta-tag-->
+        <meta charset="UTF-8" />
+        <meta name="description" content="Insurance Agency HTML Landing Page Template" />
+        <meta name="keywords" content="Insurance Agency HTML Landing Page Template" />
+        <meta name="author" content="syed-meraj-naqvi" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!--website-favicon-->
+        <link rel="icon" type="image/png" href="images/common/dark.png" />
+        <!--plugin-scripts-->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        />
+        <link href="css/aos.css" rel="stylesheet" />
+        <!--google-fonts-->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- template-style-->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+        <link rel="stylesheet" href="./css/about.css" />
+        <link rel="stylesheet" href="./css/mediclaim.css" />
+        <style>
+            hr {
+                background: #f0f0f0;
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="100" class="ct1280">
+        <!--Start Header -->
+        <header class="top-header th2">
+            <nav
+                class="navbar navbar-expand-lg justify-content-between navbar-mobile fixed-top"
+            >
+                <div class="container">
+                    <a class="navbar-brand" href="./index3.html">
+                        <img
+                            src="images/common/dark-risk.png"
+                            style="width: 100px"
+                            alt="Logo"
+                            class="white-logo img-fluid"
+                        />
+                        <img
+                            src="images/common/dark-risk.png"
+                            style="width: 100px"
+                            alt="Logo"
+                            class="dark-logo img-fluid"
+                        />
+                    </a>
+
+                    <button
+                        class="navbar-toggler collapsed"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbar4"
+                        aria-controls="navbar4"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar4">
+                        <ul class="mr-auto"></ul>
+                        <ul class="navbar-nav v-center">
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-bs-hover="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Services
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Insurance Policies</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./riskmantra.html" target="_blank">RiskMantra</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./wellconnect.html" target="_blank">WellConnect</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="aboutUsDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    About Us
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="aboutUsDropdown"
+                                >
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="./about.html"
+                                        target="_blank"
+                                        >About</a
+                                    >
+                                </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Philosophy</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Mission & Vision</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="#leaderhip"
+                                            onclick="scrollToSection2('leadership')"
+                                            >Leadership</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Our Team</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link"
+                                    href="#"
+                                    id="contactUsDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Contact Us
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="contactUsDropdown"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="./contact.html"
+                                            >Contact Us</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="#faqs"
+                                            onclick="scrollToSection1('faqs')"
+                                            >FAQs</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    href="#blogs"
+                                    onclick="scrollToSection('blogs')"
+                                    >Blogs</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <button
+                                    type="button"
+                                    class="btn btn-primary btn-rd22 mx-2"
+                                    onclick="window.location.href = './quotation.html';"
+                                >
+                                    Get a Quote
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button
+                                    type="button"
+                                    class="btn btn-primary btn-rd22"
+                                    onclick="window.location.href='./crm.html';"
+                                >
+                                    Get CRM
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--End Header -->
+
+        <!-- Riskbirbal Start -->
+
+        <section class="hero-section-1 agency-bg">
+            <div class="container">
+                <!-- content goes here -->
+
+                <h3 class="mb-2">
+                    <strong>How To Manage Group Mediclaim Policy Effectively?</strong>
+                </h3>
+                <p>
+                    <span
+                        >A group Mediclaim policy is a kind of health insurance that
+                        provides coverage for individuals who are employed by the same
+                        company. Given that the business pays the cost, it is frequently
+                        provided as a useful benefit to employees. In some circumstances,
+                        the employee&apos;s family may be covered by the group health
+                        insurance.</span
+                    >
+                </p>
+
+                <img
+                    loading="lazy"
+                    src="./images/common/two-young-businessman-having-successful-meeting-restaurant.jpg"
+                    class="img-fluid mt-2 mb-2 rounded-2"
+                    alt="Left Image"
+                    title=" Group Mediclaim Policy"
+                />
+                <p class="mt-2">
+                    <span
+                        >However, the cost is significantly lower than individual health
+                        insurance plans, and companies also benefit from tax breaks,
+                        making it advantageous for both the employer and the
+                        employee.</span
+                    >
+                </p>
+                <h4 class="text-justify mt-3 mb-3">
+                    <strong>What is covered in Group Mediclaim Insurance Policy?</strong>
+                </h4>
+                <p class="mb-2">
+                    <span
+                        >A Group Mediclaim Insurance Policy covers all the following
+                        aspects-</span
+                    >
+                </p>
+                <ul style="list-style-type: disc; padding: 15px">
+                    <li><span>Room and boarding</span></li>
+                    <li><span>Doctors/Medical Practitioner fees</span></li>
+                    <li><span>Intensive Care Unit</span></li>
+                    <li><span>Nursing expenses (within the room rent charges)</span></li>
+                    <li>
+                        <span
+                            >Surgical fees, operating theatre, anesthesia and oxygen, and
+                            their administration</span
+                        >
+                    </li>
+                    <li><span>Drugs and medicines consumed on the premises</span></li>
+                    <li>
+                        <span
+                            >Hospital miscellaneous services (such as laboratory, x-ray,
+                            diagnostic tests)</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Costs of prosthetic devices if implanted during a surgical
+                            procedure</span
+                        >
+                    </li>
+                    <li><span>Radiotherapy and chemotherapy</span></li>
+                </ul>
+                <p class="mt-2 mb-1">
+                    <strong
+                        >A Group Mediclaim Insurance is applicable only if the
+                        below-mentioned criteria are followed:</strong
+                    >
+                </p>
+                <ul style="list-style-type: square; padding: 15px">
+                    <li>
+                        <span
+                            >They occur in India and are covered by the policy&apos;s time
+                            frame.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Hospitalization costs for a minimum of 24 hours are
+                            allowable.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >If a covered member chooses a room with a higher rent
+                            category than what is allowed for him, the corresponding
+                            deductions will be made.</span
+                        >
+                    </li>
+                </ul>
+                <h4 class="mb-2 mt-1">
+                    <strong><span>What is not covered in</span></strong
+                    ><span>&nbsp;<strong>Group Mediclaim Insurance Policy?</strong></span>
+                </h4>
+                <ul style="list-style: disc; padding: 15px">
+                    <li><span>Nuclear dangers, war, and war groups</span></li>
+                    <li>
+                        <span
+                            >Birth control methods, hormone replacement therapy, medically
+                            assisted pregnancy termination during the first 12 weeks
+                            following conception, and treatments resulting from or linked
+                            to pregnancy.&nbsp;</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Circumcision unless required for a disease, illness, or
+                            injury not excluded hereunder, or as may be required as a
+                            result of an accident Vitamins and tonics unless part of
+                            treatment for a disease, illness, or injury as certified by
+                            the attending Medical Practitioner Ectopic pregnancy proven by
+                            diagnostic means and certified to be life-threatening by the
+                            attending Medical Practitioner</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Routine medical, eye, and ear exams, the cost of glasses,
+                            laser eye surgery, contacts, or hearing aids, the issuance of
+                            medical certificates, and tests to determine eligibility for
+                            employment or travel</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Self-medication, family member treatment, or any other kind
+                            of treatment not approved by science</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Sex change or any form of treatment that arises from or is
+                            connected to sex change</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Following the use of intoxicating substances and alcohol,
+                            medical treatment may be necessary. It also applies to drug
+                            abuse, solvent abuse, any addiction, or other medical
+                            conditions caused by or connected to such misuse or
+                            addiction.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Any medical care received in nursing homes, hospitals,
+                            hydrotherapy centers, natural medicine practices, or other
+                            comparable facilities</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Any medical care received outside of the hospital without
+                            being admitted as a patient</span
+                        >
+                    </li>
+                    <li><span>Costs associated with donor selection or care</span></li>
+                    <li><span>Treatment with naturopathy</span></li>
+                    <li>
+                        <span
+                            >Treatment received from individuals who are not medical
+                            practitioners as defined by the relevant medical bodies.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Any hospital stay during which no treatments are received, or
+                            the medical practitioner is not providing active regular
+                            treatment</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Aesthetic procedures, cosmetic surgery, and plastic surgery,
+                            unless they are required as a result of an accident or as part
+                            of a condition that is not specifically prohibited.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Ionizing radiation or radioactive pollution from any type of
+                            nuclear fuel or nuclear waste that results from burning
+                            nuclear fuel</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Nuclear weapons, nuclear materials, or radioactive
+                            contamination can cause or contribute to disease, illness, or
+                            injury either directly or indirectly.</span
+                        >
+                    </li>
+                    <li><span>Unproven and experimental therapies</span></li>
+                    <li>
+                        <span
+                            >Expenses incurred for medications that were not prescribed by
+                            a physician</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Prosthetics, corrective equipment, and medical devices that
+                            are not necessary during surgery or for the condition,
+                            illness, or injury for which the insured or insured person was
+                            hospitalized and that are not otherwise excluded under this
+                            clause.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >All illnesses, injuries, and diseases brought on by or
+                            connected to HIV, including the Acquired Immune Deficiency
+                            Syndrome (AIDS), the AIDS-related complex syndrome (ARCS), and
+                            others.</span
+                        >
+                    </li>
+                    <li><span>Orthodontic Care</span></li>
+                    <li>
+                        <span
+                            >Treatment for obesity, general sluggishness, recuperation,
+                            ailing condition or rest cure, venereal disease or purposeful
+                            self-harm, and usage of intoxicating substances such as
+                            alcohol</span
+                        >
+                    </li>
+                    <li><span>Any type of vaccination or immunization.</span></li>
+                </ul>
+                <h5>
+                    <strong
+                        >Process To Be Followed In Planned And Unplanned
+                        Hospitalization</strong
+                    >
+                </h5>
+                <p class="mt-2">
+                    <span
+                        >In case of a planned authorization, all non-emergency
+                        hospitalization situations require prior authorization from the
+                        Help Desk. This is done to guarantee that the insured member
+                        receives the best treatment available and is not inconvenienced
+                        when seeking admission into a Network Hospital.</span
+                    >
+                </p>
+                <p class="mt-2 mb-2">
+                    <span
+                        >You must get hospital admittance after your hospitalization has
+                        been pre-authorized. Raksha TPA will give the hospital a letter of
+                        credit or a cashless approval letter. Please provide your
+                        government-issued and health ID cards at the hospital entrance
+                        desk. In the event of a network hospital, the insured member is
+                        not needed to pay the hospitalization bill. The invoice will be
+                        issued to and paid for by Raksha TPA, but the employee or patient
+                        must cover any disapproved amounts.</span
+                    >
+                </p>
+                <p>
+                    <span
+                        >However, in case of an unplanned hospitalization, employees can
+                        get up to seven days before the entrance to request cashless
+                        approval. The cashless authorization form is accessible at the
+                        hospital&apos;s TPA assistance desk. When visiting TPA, the
+                        employee must have TPA Card and a valid ID. Once the hospital has
+                        given you all the necessary information, it takes no longer than
+                        three hours to approve cashless claims.</span
+                    >
+                </p>
+            </div>
+        </section>
+
+        <hr />
+
+        <!--End Faqs-->
+
+        <section>
+            <div class="container">
+                <!-- content goes here -->
+
+                <h3 class="mb-2">
+                    <strong
+                        >Birbal's Wisdom Meets Innovation: Redefining Insurance and Risk
+                        Management</strong
+                    >
+                </h3>
+                <p>
+                    <span
+                        >In the dynamic realm of business, where challenges are as diverse
+                        as they are complex, the need for ingenious solutions in insurance
+                        broking and risk management has reached unprecedented heights.
+                        Like the legendary advisor Birbal, renowned for his wit and
+                        sagacity, Riskbirbal has stepped into this landscape, seamlessly
+                        integrating cutting-edge technology with unparalleled human
+                        expertise. This harmonious fusion not only redefines the domains
+                        of insurance and risk management but also channels the essence of
+                        Birbal's wisdom, setting remarkable standards for
+                        client-centricity and operational excellence.</span
+                    >
+                </p>
+                <div class="wisdom-bg">
+                    <img
+                        src="./images/common/birbal-wisdom.jpg"
+                        class="img-fluid rounded-2 mt-2 mb-2"
+                        alt="Wisdom Birbal"
+                        title="Birbal's Wisdom Meets Innovation"
+                        loading="lazy"
+                    />
+                </div>
+                <p class="mt-2">
+                    <span
+                        >Riskbirbal embarked on its journey with a vision to create a
+                        holistic platform that marries advanced technological tools with
+                        the insights of seasoned experts. Acknowledging that technology
+                        enhances efficiency while human understanding enriches the
+                        intricate tapestry of insurance and risk, the company introduced a
+                        revolutionary business model that synergizes these two powerful
+                        components. To provide our clientele with Birbal's astute
+                        problem-solving, irrespective of the nature of risk.</span
+                    >
+                </p>
+                <p class="mt-2">
+                    <span
+                        >Just as Birbal's wit could see through complexity, Riskbirbal
+                        utilizes cutting-edge technological advancements that have
+                        transformed conventional insurance processes to see through the
+                        complexities of risk. The company's proprietary software employs
+                        artificial intelligence, data analytics, and machine learning to
+                        expedite quick risk assessments, analyze dynamic market trends,
+                        and craft tailor-made insurance solutions for each client's unique
+                        needs. This acceleration of decision-making ensures clients
+                        receive precisely tailored solutions promptly, echoing the swift
+                        and insightful strategies of Birbal.</span
+                    >
+                </p>
+                <p class="mt-2">
+                    <span
+                        >While technology propels operational efficiency, it is the
+                        intrinsic value of human expertise at Riskbirbal that truly
+                        distinguishes it. The firm boasts of a team of seasoned
+                        professionals, each possessing an astute comprehension of the
+                        industry's intricacies. These experts contribute to judgments and
+                        insights that transcend the capabilities of algorithms. By
+                        seamlessly integrating technology with the acumen of experienced
+                        professionals, Riskbirbal offers a comprehensive approach that
+                        seamlessly blends data-driven precision with the wisdom gained
+                        from years of industry knowledge, mirroring Birbal's ability to
+                        combine astuteness with humanity.</span
+                    >
+                </p>
+                <p class="mt-2">
+                    <span
+                        >At the core of Birbal's interactions was his unwavering focus on
+                        serving his emperor with utmost dedication. Similarly,
+                        Riskbirbal's ethos centre on an unwavering commitment towards it’s
+                        clients, and the fact is evident in every facet of operations of
+                        the team leading to an elevated client experience. The firm's
+                        user-friendly interface presents clients with an access to
+                        real-time insights, enabling them to make informed decisions, and
+                        seamlessly manage their insurance and risk portfolios. This
+                        emphasis on user experience not only streamlines interactions but
+                        also empowers clients to actively shape their risk management
+                        strategies, embodying the essence of Birbal's personalized
+                        counsel.</span
+                    >
+                </p>
+                <p class="mt-2">
+                    <span
+                        >As Riskbirbal continues to spearhead innovation in the insurance
+                        and risk management domain, its pioneering model stands as a
+                        guiding light for the industry, reminiscent of Birbal's guiding
+                        influence. It’s success underscoring the immense potential for
+                        technology and human expertise to harmonize seamlessly,
+                        transcending traditional boundaries and continuously creating new
+                        avenues for growth and advancement.</span
+                    >
+                </p>
+                <p class="mt-2 mb-2">
+                    <span
+                        >In an era defined by technological leaps, Riskbirbal expertly
+                        fuses technology with human intellect, redefining the landscape of
+                        insurance broking and risk management, offering clients an
+                        exceptional blend of efficiency, precision, and personalized
+                        service. As the industry evolves, Riskbirbal stands poised to lead
+                        the way, echoing Birbal's legacy and affirming that the synergy
+                        between technology and human insight is the definitive key to a
+                        more promising and secure future.</span
+                    >
+                </p>
+            </div>
+        </section>
+
+        <hr />
+
+        <section>
+            <div class="container">
+                <!-- content goes here -->
+
+                <h3 class="mb-2">
+                    <strong
+                        >What to do and Not for HR while managing GMC/GPA
+                        policies?</strong
+                    >
+                </h3>
+                <p>
+                    <span
+                        >Employee satisfaction is a crucial aspect affecting an
+                        organization's productivity. It significantly affects how a firm
+                        grows and maintains its competitiveness. Taking care of the
+                        employees is the basic task of HR. they do everything they can to
+                        make their employees happy and safe in the office environment.
+                        Employers provide a range of perks, such as preferred leave and
+                        insurance, to keep workers happy and motivated.</span
+                    >
+                </p>
+                <img
+                    loading="lazy"
+                    src="./images/common/human-resource.jpg"
+                    class="img-fluid mt-2 mb-2"
+                    alt="Right Image"
+                    title="GMC/GPA Policies"
+                />
+                <p class="mt-2">
+                    <span
+                        >The two most prevalent insurance plans offered by employers to
+                        insure their employees are group medical coverage (GMC) and group
+                        personal accident insurance (GPA). These plans aid companies cover
+                        the costs of unlucky workplace accidents. Both these policies
+                        guarantee the employees' welfare by providing them with financial
+                        and medical coverage.</span
+                    >
+                </p>
+                <h4 class="text-justify mt-3 mb-3">
+                    <strong>What is a GMC insurance policy?</strong>
+                </h4>
+                <p class="mb-2">
+                    <span
+                        >A sort of health insurance called a Group Medical Cover, or GMC,
+                        is for a group of people, such as the staff of a single company.
+                        It also extends to their dependents, such as their spouse, kids,
+                        and parents.</span
+                    >
+                </p>
+                <p class="mb-2">
+                    <span
+                        >Typically, an employer provides such a policy as a perk and pays
+                        the premium. The costs for this type of health insurance are kept
+                        cheap since the risk is shared among a large group of people who
+                        are already covered.</span
+                    >
+                </p>
+
+                <h4 class="text-justify mt-3 mb-3">
+                    <strong>What does GMC cover?</strong>
+                </h4>
+                <ul style="list-style-type: disc; padding: 15px">
+                    <li>
+                        <span
+                            >In the event of a longer than 24-hour admission,
+                            hospitalization costs are paid.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >It covers costs incurred before and after hospitalization,
+                            such as X-rays, medical reports, and medication costs.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >It provides immediate coverage for pre-existing conditions
+                            like diabetes, hypertension, etc.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >The policy may provide coverage for serious conditions like
+                            cancer and cardiovascular problems.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >In addition, there is coverage for prenatal costs and newborn
+                            baby medical costs.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Additionally, GMC covers may offer the option to select
+                            add-on covers for a modest additional fee. Maternity
+                            insurance, personal accident insurance, and AYUSH treatment
+                            insurance are popular add-ons.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Additionally, childcare procedures and outpatient medical
+                            services are frequently covered by a GMC.</span
+                        >
+                    </li>
+                </ul>
+                <p class="mt-2 mb-1">
+                    <strong
+                        >A Group Mediclaim Insurance is applicable only if the
+                        below-mentioned criteria are followed:</strong
+                    >
+                </p>
+                <ul style="list-style-type: square; padding: 15px">
+                    <li>
+                        <span
+                            >They occur in India and are covered by the policy&apos;s time
+                            frame.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Hospitalization costs for a minimum of 24 hours are
+                            allowable.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >If a covered member chooses a room with a higher rent
+                            category than what is allowed for him, the corresponding
+                            deductions will be made.</span
+                        >
+                    </li>
+                </ul>
+                <h4 class="mb-2 mt-1">
+                    <strong><span>What is a GPA insurance policy?</span></strong>
+                </h4>
+                <p class="mb-2">
+                    <span
+                        >A type of insurance called group personal accident insurance
+                        (GPA) covers a group of people financially in the event of
+                        unanticipated incidents that cause death, serious injury, or
+                        disability.</span
+                    >
+                </p>
+                <p class="mb-2">
+                    <span
+                        >Accidents can happen at any time and have unanticipated negative
+                        effects on your health. Therefore, GPA insurance has some built-in
+                        provisions to protect employees if an accident results in their
+                        death or a handicap that affects their ability to earn a living.
+                        It offers them or their families some level of financial
+                        security.</span
+                    >
+                </p>
+
+                <h4 class="mb-2 mt-1">
+                    <strong><span>What is a GPA cover?</span></strong>
+                </h4>
+                <ul style="list-style: disc; padding: 15px">
+                    <li>
+                        <span
+                            >It offers financial protection if an accident results in
+                            partial, total, or permanent disability (such as the loss of
+                            limbs or vision).</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >In the worst-case scenario, it offers dependents financial
+                            security.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >Ambulance and transportation costs are also offered as an
+                            optional benefit.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >When hospitalization costs are related to an accident, it
+                            covers things like room rent and daycare visits.</span
+                        >
+                    </li>
+                    <li>
+                        <span
+                            >In the event of death or permanent disability, it pays for
+                            specific benefits for dependent children, such as college
+                            tuition or wedding expenditures.</span
+                        >
+                    </li>
+                </ul>
+
+                <p>
+                    <span
+                        >The employees must enroll themselves to obtain coverage for
+                        themselves and their eligible dependents. The HR should collect
+                        relevant enrolment data like Employee ID, Name, Date of Birth,
+                        Gender, Relationship, etc., they have to make sure that the data
+                        is relevant and valid and thereafter submit the details to the
+                        insurer. The employee's data must reach the insurer within 30 days
+                        of their joining. Employees also have to inform HR whenever they
+                        need to get a new dependant added to their policies, like in case
+                        of marriage, birth, or adoption of a child. All this information
+                        has to be submitted to the insurer within 30 days of the process.
+                    </span>
+                </p>
+                <p><span>&nbsp;</span></p>
+                <p><span>&nbsp;</span></p>
+                <p></p>
+            </div>
+        </section>
+
+        <!--Start Footer-->
+        <footer style="background-color: #540e40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer- mt30 mb30">
+                            <a href="javascript:void(0)"
+                                ><img
+                                    src="images/common/dark-risk.png"
+                                    class="img-fluid"
+                                    alt="logo"
+                            /></a>
+                            <!-- <h4 class="mb30 text-white">Contact Us</h4>
+                            <div class="d-flex flex-column">
+                                <a href="#" style="color: #fff">Contact Us</a>
+                                <a href="#" style="padding: 15px 0; color: #fff"
+                                    >Privacy Policy</a
+                                >
+                                <a href="#" style="color: #fff">Terms of Service</a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" style="font-size: 18px;">
+                        <p class="text-white mt20">
+                            Insurance Products and services offered by Riskbirbal
+                            Insurance Broker Pvt Ltd
+                        </p>
+                        <div class="licenses mt-4 d-flex flex-column text-white">
+                            <span class=""
+                            >IRDAI License No. : <strong>896</strong></span
+                            >
+                            <span
+                            >License category: Direct Broker (Life &
+                            General)</span
+                            >
+                            <span>License validity till:  30-04-2026.</span>
+                            <span>CIN: U67100DL2022PTC407258 </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="mt30 mb30 text-white">Keep in Touch</h4>
+                        <div class="footer-social-media-icons">
+                            <a href="javascript:void(0)" target="blank" class="facebook"
+                                ><i class="fab fa-facebook-f"></i
+                            ></a>
+                            <a href="javascript:void(0)" target="blank" class="twitter"
+                                ><i class="fab fa-twitter"></i
+                            ></a>
+                            <a href="javascript:void(0)" target="blank" class="instagram"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                            <a href="javascript:void(0)" target="blank" class="linkedin"
+                                ><i class="fab fa-linkedin-in"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="footer-ft">
+                                <p style="color: #fff">
+                                    Copyright © 2023
+                                    <a href="index3.html" style="color: #fff"
+                                        >RiskBirbal</a
+                                    >. All Rights Reserved.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--End Footer-->
+
+        <!--contact popup start-->
+
+        <!--contact popup end-->
+
+        <!-- Main script file -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/pora.js.plugin.js"></script>
+        <!-- contact from script file -->
+        <script src="js/validator.min.js"></script>
+        <script src="js/form-scripts.js"></script>
+        <!--common script file-->
+        <script src="js/main.js"></script>
+    </body>
+</html>

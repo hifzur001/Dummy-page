@@ -1,0 +1,42 @@
+.card {
+    border: none;
+    background: #f1f1f1;
+    cursor: pointer;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.card-title {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    transition: background-color 2.5s ease-in-out;
+}
+
+.card-content {
+    padding: 20px;
+    background-color: #fff;
+    color: #252525;
+    display: none;
+    transform: translateY(-100%);
+    transition: max-height 2.5s ease-in-out, padding 2.5s ease-in-out,
+        background-color 2.5s ease-in-out, transform 2.5s ease-in-out; /* Add transform transition here */
+}
+
+.card:hover .card-title {
+    background-color: #f8f9fa;
+}
+
+.card:hover .card-content {
+    height: 250px;
+    display: block;
+    background: #f1f1f1;
+    color: #252525;
+    transform: translateY(0); /* Apply translateY on hover */
+}
+.image-div {
+    box-shadow: none;
+    filter: drop-shadow(0 0 10px #80008069);
+}

@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+}
+.card {
+    border: none;
+    transition: 800ms all;
+    border-radius: 12px;
+    background: rgb(238, 238, 238);
+    box-shadow: 5px 5px 9px #9f9f9f, -5px -5px 9px #ffffff;
+}
+.card-title {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 18px;
+    color: #2b2b32;
+}
+.card:hover {
+    transform: scale(0.98);
+}
